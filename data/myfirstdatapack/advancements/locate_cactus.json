@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cactus"
+    },
+    "title": {
+      "text": "杂技达人",
+      "color": "green"
+    },
+    "description": "在沙漠中仙人掌上走路",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "myfirstdatapack:locate_desert_pyramid",
+  "criteria": {
+    "locate_cactus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "biome": "minecraft:desert",
+                "block": {
+                  "blocks": [
+                    "minecraft:cactus"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

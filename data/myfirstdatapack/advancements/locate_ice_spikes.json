@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:packed_ice"
+    },
+    "title": {
+      "text": "冰 雪 奇 缘",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": "抵达冰刺之地",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "myfirstdatapack:location_mgd",
+  "criteria": {
+    "locate_ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:ice_spikes"
+          }
+        }
+      }
+    }
+  }
+}

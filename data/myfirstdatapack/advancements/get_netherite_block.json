@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_block"
+      },
+      "title": {
+        "text": "最稀有的方块！",
+        "color": "yellow",
+        "bold": true
+      },
+      "description": {
+        "text": "制作一个下界合金块",
+        "color": "aqua"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "myfirstdatapack:get_netherite_pickaxe",
+    "criteria": {
+      "get_netherite_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:netherite_block"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

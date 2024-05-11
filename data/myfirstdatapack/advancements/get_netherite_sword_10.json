@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": {
+      "text": "武士零",
+      "color": "dark_purple",
+      "bold": true
+    },
+    "description": "拥有一把锋利10的下界合金剑",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "myfirstdatapack:get_netherite_sword_5",
+  "criteria": {
+    "get_netherite_sword_10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:sharpness",
+                "levels": 10
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

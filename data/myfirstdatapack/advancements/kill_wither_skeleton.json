@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": "把脑袋拿来！",
+    "description": "击杀凋零骷髅",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "myfirstdatapack:kill_skeleton",
+  "criteria": {
+    "kill_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {},
+        "entity": {
+          "type": "minecraft:wither_skeleton"
+        }
+      }
+    }
+  }
+}

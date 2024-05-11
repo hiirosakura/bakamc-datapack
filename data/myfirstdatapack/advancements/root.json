@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ice"
+    },
+    "title": {
+      "text": "欢",
+      "color": "red",
+      "bold": true,
+      "extra": [
+        {
+          "text": "迎",
+          "color": "gold",
+          "bold": true
+        },
+        {
+          "text": "来",
+          "color": "yellow",
+          "bold": true
+        },
+        {
+          "text": "到",
+          "color": "green",
+          "bold": true
+        },
+        {
+          "text": "BakaMC",
+          "color": "aqua",
+          "bold": true
+        },
+        {
+          "text": "服",
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "text": "务",
+          "color": "dark_blue",
+          "bold": true
+        },
+        {
+          "text": "器",
+          "color": "dark_purple",
+          "bold": true
+        },
+        {
+          "text": "！~",
+          "color": "red",
+          "bold": true
+        }
+      ]
+    },
+    "description": {
+      "text": "获得一个工作台\n并开始在BakaMC的生活！",
+      "color": "gold",
+      "italic": true
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "Welcome": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

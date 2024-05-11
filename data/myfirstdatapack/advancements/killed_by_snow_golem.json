@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "text": "来自寒冷的\"问候\"",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": "死于雪傀儡",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "myfirstdatapack:tame_snow_golem",
+  "criteria": {
+    "killed_by_snowgolem": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:snow_golem"
+        }
+      }
+    }
+  }
+}

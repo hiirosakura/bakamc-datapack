@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": {
+      "text": "The cake is a lie",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "把蛋糕并放在桌子上",
+      "color": "light_purple"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "myfirstdatapack:get_yanxunlu",
+  "criteria": {
+    "get_cake": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {}
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cake",
+            "properties": {}
+          }
+        ]
+      }
+    }
+  }
+}

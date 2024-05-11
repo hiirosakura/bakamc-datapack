@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:budding_amethyst"
+      },
+      "title": {
+        "text": "能源紫水晶！",
+        "color": "dark_purple",
+        "bold": true
+      },
+      "description": {
+        "text": "获得紫水晶母岩",
+        "italic": true
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "myfirstdatapack:get_ronglu",
+    "criteria": {
+      "get_budding_amethyst": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:budding_amethyst"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+  

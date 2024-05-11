@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:light"
+      },
+      "title": {
+        "text": "神说",
+        "color": "yellow",
+        "bold": true
+      },
+      "description": {
+        "text": "获得光源方块",
+        "italic": true
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "myfirstdatapack:get_budding_amethyst",
+    "criteria": {
+      "get_light": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:light"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+  

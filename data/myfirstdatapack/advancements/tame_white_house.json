@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "title": {
+      "text": "珍珠",
+      "color": "white",
+      "bold": true
+    },
+    "description": "驯服一匹白色的马",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "myfirstdatapack:tame_cat",
+  "criteria": {
+    "tame_white_house": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:horse",
+          "type_specific": {
+            "type": "horse",
+            "variant": "white"
+          }
+        }
+      }
+    }
+  }
+}
