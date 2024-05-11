@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "# #",
+      "###"
+    ],
+    "key": {
+      "#": [
+        {
+          "item": "minecraft:oak_log"
+        },
+        {
+          "item": "minecraft:spruce_log"
+        },
+        {
+          "item": "minecraft:jungle_log"
+        },
+        {
+          "item": "minecraft:acacia_log"
+        },
+        {
+          "item": "minecraft:dark_oak_log"
+        },
+        {
+          "item": "minecraft:crimson_stem"
+        },
+        {
+          "item": "minecraft:warped_stem"
+        },
+        {
+          "item": "minecraft:cherry_log"
+        },
+        {
+          "item": "minecraft:mangrove_log"
+        },
+        {
+          "item": "minecraft:birch_log"
+        }
+      ]
+    },
+    "result": {
+      "item": "minecraft:chest",
+      "count": 4
+    }
+  }
+  

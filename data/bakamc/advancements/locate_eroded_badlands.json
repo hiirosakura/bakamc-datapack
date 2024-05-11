@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_sand"
+    },
+    "title": {
+      "text": "风  蚀  高  地",
+      "color": "gold",
+      "bold": true
+    },
+    "description": "抵达更稀有的风蚀恶地",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bakamc:locate_badlands",
+  "criteria": {
+    "locate_eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:eroded_badlands"
+          }
+        }
+      }
+    }
+  }
+}

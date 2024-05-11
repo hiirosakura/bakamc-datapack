@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mycelium"
+    },
+    "title": {
+      "text": "这是...蘑菇岛！",
+      "color": "gold",
+      "bold": true
+    },
+    "description": "抵达蘑菇岛",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bakamc:locate_village",
+  "criteria": {
+    "location_mgd": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:mushroom_fields"
+          }
+        }
+      }
+    }
+  }
+}

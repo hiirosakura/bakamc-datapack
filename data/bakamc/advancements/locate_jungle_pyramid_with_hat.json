@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "text": "为什么那棵树会说话?",
+      "color": "green",
+      "bold": true
+    },
+    "description": "头戴龟壳绿帽前往丛林群系",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bakamc:locate_jungle_pyramid",
+  "criteria": {
+    "locate_jungle_pyramid_with_hat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:jungle"
+          },
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:turtle_helmet"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

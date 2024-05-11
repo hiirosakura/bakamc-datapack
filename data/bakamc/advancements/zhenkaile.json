@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_axe"
+      },
+      "title": {
+        "text": "真开了是吧？",
+        "color": "red",
+        "bold": true
+      },
+      "description": "你造成一次生存难度下不可能造成的伤害！\n当你发现这个成就时请立刻通知管理员！",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "bakamc:kaile",
+    "criteria": {
+      "zhenkaile": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "taken": {
+              "min": 2000,
+              "max": 20480
+            }
+          }
+        }
+      }
+    }
+  }
+  

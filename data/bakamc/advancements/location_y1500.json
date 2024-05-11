@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": {
+      "text": "月都直通车",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": "飞到世界的1500格之上",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bakamc:qizhu_200",
+  "criteria": {
+    "location_y1500": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 1500
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

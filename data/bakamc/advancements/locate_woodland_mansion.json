@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "title": {
+      "text": "繁茂中的阴暗之地",
+      "color": "dark_red",
+      "bold": true
+    },
+    "description": "抵达林地府邸",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bakamc:locate_jungle_pyramid",
+  "criteria": {
+    "locate_woodland_mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:mansion"
+          }
+        }
+      }
+    }
+  }
+}

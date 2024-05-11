@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pumpkin_pie"
+    },
+    "title": {
+      "text": "(・ω < )⌒",
+      "color": "aqua",
+      "bold": true,
+      "extra": [
+        {
+          "text": "☆",
+          "color": "gold",
+          "bold": true
+        }
+      ]
+    },
+    "description": "大伙有什么有趣的成就or进度可以私信群里YuyukoSAMA喔~如果做的出来的话酌情收录！",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "bakamc:root",
+  "criteria": {
+    "idea": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

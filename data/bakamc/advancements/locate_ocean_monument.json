@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine"
+    },
+    "title": {
+      "text": "覆潮之下",
+      "color": "blue",
+      "bold": true
+    },
+    "description": "抵达海底神殿",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bakamc:locate_village",
+  "criteria": {
+    "locate_Ocean_Monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:monument"
+          }
+        }
+      }
+    }
+  }
+}

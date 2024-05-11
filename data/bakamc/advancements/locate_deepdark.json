@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk"
+    },
+    "title": "深邃的黑暗",
+    "description": "抵达地底的深暗之域",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "bakamc:get_deepslate",
+  "criteria": {
+    "locate_deepdark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:deep_dark"
+          }
+        }
+      }
+    }
+  }
+}
